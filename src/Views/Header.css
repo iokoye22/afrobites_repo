@@ -1,0 +1,114 @@
+/* src/components/Header.css */
+
+.hero-container {
+    position: relative;
+    background: linear-gradient(to right, #fff7ed, #ffeacf);
+    padding: 20px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .leafs-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .logo {
+    height: 90px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+    color: #3a2b1c;
+  }
+  
+  .nav-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #3a2b1c;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text h1 span {
+    color: #3a2b1c;
+    font-size: 3.2rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #3a2b1c;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .highlight {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-btn {
+    background-color: #f25c1f;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .order-btn {
+    background-color: transparent;
+    border: 2px solid #f25c1f;
+    color: #3a2b1c;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    max-width: 450px;
+    border-radius: 50%;
+  }
