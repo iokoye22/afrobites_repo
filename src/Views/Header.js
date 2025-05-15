@@ -14,10 +14,10 @@ const Header = () => {
         <div className="navbar-content">
           <img src={AfrobitesLogo} alt="Afrobites Logo" className="logo" />
           <ul className="nav-links">
-            <li>About Us</li>
+            <li>Our Story</li>
             <li>Menu</li>
             <li>Contact</li>
-            <li>Blog</li>
+            <li>Events</li>
           </ul>
           <div className="nav-icons">
             <img src={personImage} alt="User Account" className="icon user-icon" />
@@ -30,7 +30,7 @@ const Header = () => {
         <img src={leafsImage} alt="Floating Leafs" className="leafs-bg" />
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Get a taste of <br /> <span>West African food</span></h1>
+            <h1>Get a taste of <br /> <span>West African food.</span></h1>
             <p>
               Discover the rich and diverse flavors of West Africa right here at AfroBites.
               Our authentic dishes bring the vibrant culinary traditions of West Africa straight to your table,
