@@ -1,21 +1,16 @@
 // src/Views/HomePage.js
-import React, { useState } from 'react';
+import React from 'react';
 import './HomePage.css';
-import Header from './Header.js';
-
+import Header from './Header';
+import OurStory from './OurStory';
 
 const HomePage = () => {
-    const [isBlue, setIsBlue] = useState(false);
-
-    const toggleColor = () => {
-        setIsBlue(!isBlue);
-    };
-
-    return (
-        <div className="afrobites-homepage">
-            <Header/>
-        </div>
-    );
+  return (
+    <div className="afrobites-homepage">
+      <Header />
+      <OurStory />
+    </div>
+  );
 };
 
 export default HomePage;

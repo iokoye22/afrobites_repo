@@ -8,13 +8,18 @@ import shoppingCartImage from '../assets/images/shopping cart.png';
 import personImage from '../assets/images/person.png';
 
 const Header = () => {
+  const handleScroll = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div>
       <nav className="navbar">
         <div className="navbar-content">
           <img src={AfrobitesLogo} alt="Afrobites Logo" className="logo" />
           <ul className="nav-links">
-            <li>Our Story</li>
+            <li onClick={() => handleScroll('our-story')}>Our Story</li>
             <li>Menu</li>
             <li>Contact</li>
             <li>Events</li>
@@ -25,7 +30,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      
+
       <header className="hero-container">
         <img src={leafsImage} alt="Floating Leafs" className="leafs-bg" />
         <div className="hero-content">
@@ -52,3 +57,4 @@ const Header = () => {
 };
 
 export default Header;
+
