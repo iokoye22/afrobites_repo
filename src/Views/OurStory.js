@@ -1,10 +1,12 @@
 // src/Views/OurStory.js
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './OurStory.css';
 import laurettaHeadshot from '../assets/images/Lauretta_Okoye_headshot.jpg';
 import leafsImage from '../assets/images/leafs.png';
 
 const OurStory = () => {
+  const navigate = useNavigate();
   return (
     <section className="our-story" id="our-story">
       <img src={leafsImage} alt="Floating Leafs" className="leafs-bg" />
@@ -23,7 +25,7 @@ const OurStory = () => {
             Lauretta shares the stories behind each dish to foster appreciation and understanding. 
             Experience the warmth of Nigeria and the spirit of Chef Lauretta's culinary artistry with every unforgettable bite.
           </p>
-          <button className="menu-cta">Menu</button>
+          <button className="menu-cta" onClick={() => navigate('/menu')}>Menu</button>
         </div>
       </div>
     </section>

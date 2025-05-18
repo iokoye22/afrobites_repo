@@ -1,14 +1,18 @@
 // src/Views/HomePage.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HomePage.css';
-import Header from './Header';
 import OurStory from './OurStory';
+import Events from './Events';
 
 const HomePage = () => {
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="afrobites-homepage">
-      <Header />
       <OurStory />
+      <Events />
     </div>
   );
 };
