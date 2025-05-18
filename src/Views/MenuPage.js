@@ -8,8 +8,10 @@ import jollofImage from '../assets/images/jollof_v1.png';
 import suyaImage from '../assets/images/suya.png';
 import meatPieImage from '../assets/images/meat_pie.jpg';
 import fishPieImage from '../assets/images/fish_pie.jpg';
-import friedTilImage from '../assets/images/fried_til.png';
+import plantainsImage from '../assets/images/plantains.webp';
 import puffImage from '../assets/images/puff.png';
+import moiMoiImage from '../assets/images/moi_moi.jpg';
+import beansPlantainImage from '../assets/images/Beans.webp';
 import catfishPepperSoupImage from '../assets/images/catfish_pepper_soup.png';
 import goatPepperSoupImage from '../assets/images/goat_pepper_soup.png';
 import veggieSoupImage from '../assets/images/veggie_soup.png';
@@ -37,12 +39,20 @@ const MenuPage = () => {
       category: 'Main Dishes'
     },
     {
+      id: 12,
+      name: 'Beans and Plantain',
+      description: 'Traditional Nigerian dish featuring slow-cooked black-eyed beans in a rich tomato sauce, served with fried sweet plantains.',
+      price: '$14.99',
+      image: beansPlantainImage,
+      category: 'Main Dishes'
+    },
+    {
       id: 3,
       name: 'Suya',
       description: 'Spicy skewered meat seasoned with a unique blend of ground peanuts and spices.',
       price: '$12.99',
       image: suyaImage,
-      category: 'Appetizers'
+      category: 'Sides & Appetizers'
     },
     {
       id: 4,
@@ -50,7 +60,7 @@ const MenuPage = () => {
       description: 'Savory pastry filled with seasoned minced meat, potatoes, and carrots.',
       price: '$5.99',
       image: meatPieImage,
-      category: 'Snacks'
+      category: 'Sides & Appetizers'
     },
     {
       id: 5,
@@ -58,15 +68,15 @@ const MenuPage = () => {
       description: 'Flaky pastry filled with seasoned fish, herbs, and vegetables.',
       price: '$6.99',
       image: fishPieImage,
-      category: 'Snacks'
+      category: 'Sides & Appetizers'
     },
     {
       id: 6,
       name: 'Fried Plantains',
       description: 'Sweet ripe plantains, fried to golden perfection.',
       price: '$4.99',
-      image: friedTilImage,
-      category: 'Sides'
+      image: plantainsImage,
+      category: 'Sides & Appetizers'
     },
     {
       id: 7,
@@ -74,7 +84,15 @@ const MenuPage = () => {
       description: 'Sweet, deep-fried dough balls - a popular West African snack.',
       price: '$3.99',
       image: puffImage,
-      category: 'Snacks'
+      category: 'Sides & Appetizers'
+    },
+    {
+      id: 11,
+      name: 'Moi Moi',
+      description: 'Steamed bean pudding made from a mixture of washed and peeled black-eyed beans, onions, and fresh ground peppers.',
+      price: '$7.99',
+      image: moiMoiImage,
+      category: 'Sides & Appetizers'
     },
     {
       id: 8,
@@ -107,7 +125,9 @@ const MenuPage = () => {
 
   return (
     <div className="menu-page">
-      <img src={leafsImage} alt="Floating Leafs" className="leafs-bg" />
+      <div className="leafs-container">
+        <img src={leafsImage} alt="Floating Leafs" className="leafs-bg top-leafs" />
+      </div>
       <div className="menu-hero">
         <img src={menuTopPhoto} alt="Delicious African Food" className="menu-hero-image" />
         <div className="menu-hero-overlay">

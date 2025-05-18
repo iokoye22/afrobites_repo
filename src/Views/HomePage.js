@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import './HomePage.css';
 import OurStory from './OurStory';
+import Events from './Events';
 
 const HomePage = () => {
   // Scroll to top when component mounts
@@ -11,6 +12,7 @@ const HomePage = () => {
   return (
     <div className="afrobites-homepage">
       <OurStory />
+      <Events />
     </div>
   );
 };
