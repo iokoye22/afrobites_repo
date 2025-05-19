@@ -161,6 +161,62 @@ const MenuPage = () => {
             </div>
           </div>
         ))}
+        
+        {/* Catering Options Section */}
+        <div className="menu-category">
+          <h2>Catering Options</h2>
+          <p className="catering-description">
+            Our catering options are perfect for events and gatherings. All dishes are served in your choice of full pans (serves 15-20) or half pans (serves 8-10). Please order at least 48 hours in advance.
+          </p>
+          
+          <div className="catering-grid">
+            <div className="catering-grid-header">
+              <div className="catering-item-name">Item</div>
+              <div className="catering-item-price">Half Pan</div>
+              <div className="catering-item-price">Full Pan</div>
+            </div>
+            
+            <div className="catering-grid-item">
+              <div className="catering-item-name">Jollof Rice</div>
+              <div className="catering-item-price">$45.99</div>
+              <div className="catering-item-price">$85.99</div>
+            </div>
+            
+            <div className="catering-grid-item">
+              <div className="catering-item-name">Egusi Soup</div>
+              <div className="catering-item-price">$55.99</div>
+              <div className="catering-item-price">$99.99</div>
+            </div>
+            
+            <div className="catering-grid-item">
+              <div className="catering-item-name">Beans and Plantain</div>
+              <div className="catering-item-price">$49.99</div>
+              <div className="catering-item-price">$89.99</div>
+            </div>
+            
+            <div className="catering-grid-item">
+              <div className="catering-item-name">Suya (30/60 pcs)</div>
+              <div className="catering-item-price">$59.99</div>
+              <div className="catering-item-price">$109.99</div>
+            </div>
+            
+            <div className="catering-grid-item">
+              <div className="catering-item-name">Meat Pie (20/40 pcs)</div>
+              <div className="catering-item-price">$49.99</div>
+              <div className="catering-item-price">$89.99</div>
+            </div>
+            
+            <div className="catering-grid-item">
+              <div className="catering-item-name">Puff Puff (30/60 pcs)</div>
+              <div className="catering-item-price">$35.99</div>
+              <div className="catering-item-price">$65.99</div>
+            </div>
+          </div>
+          
+          <p className="catering-note">
+            For custom catering orders or special requests, please contact us at <span className="highlight">afrobitesma@gmail.com</span> or call <span className="highlight">+1 (781) 626–1955</span>.
+          </p>
+        </div>
       </div>
     </div>
   );

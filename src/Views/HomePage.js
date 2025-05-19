@@ -11,7 +11,9 @@ const HomePage = () => {
   }, []);
   return (
     <div className="afrobites-homepage">
+      <div className="section-gap"></div> {/* White gap */}
       <OurStory />
+      <div className="section-gap"></div> {/* White gap */}
       <Events />
     </div>
   );
