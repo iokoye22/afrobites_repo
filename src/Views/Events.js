@@ -43,7 +43,7 @@ const Events = () => {
 
         <div className="exhibition">
           <div className="exhibition-info">
-            <h3>AfroBites at African Food Fest NYC 2025</h3>
+            <h3>AfroBites 1st food tasting exhibition at Northeastern, 2024</h3>
             <p>
               This time we had our first live tastinf event at Northeastern with Chef Lauretta. 
               The aroma of Egusi soup and Fried Rice filled the air and brought attendees to our booth all day.
