@@ -41,7 +41,7 @@ const Header = () => {
           <ul className="nav-links">
             <li onClick={() => handleScroll('our-story')}>Our Story</li>
             <li onClick={() => handleNavigate('/menu')}>Menu</li>
-            <li>Contact</li>
+            <li onClick={() => handleScroll('contact')}>Contact</li>
             <li onClick={() => handleNavigate('/events')}>Events</li>
           </ul>
           <div className="nav-icons">

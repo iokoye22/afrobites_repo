@@ -45,8 +45,8 @@ const Events = () => {
           <div className="exhibition-info">
             <h3>AfroBites at African Food Fest NYC 2025</h3>
             <p>
-              This time we brought a live cooking demo with Chef Lauretta. 
-              The aroma of Egusi soup filled the air and brought attendees to our booth all day.
+              This time we had our first live tastinf event at Northeastern with Chef Lauretta. 
+              The aroma of Egusi soup and Fried Rice filled the air and brought attendees to our booth all day.
             </p>
           </div>
         </div>
