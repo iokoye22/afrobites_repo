@@ -27,7 +27,7 @@ const Footer = () => {
           <p>2024 AfroBites MA</p>
         </div>
 
-        <div className="footer-columns">
+        <div className="footer-columns">  
           <div className="footer-column">
             <h4>Company</h4>
             <ul>
