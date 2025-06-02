@@ -248,7 +248,7 @@
 
 .catering-item-price {
   font-weight: 600;
-  color: #f25c1f;
+  color: #0b0b0a;
   text-align: center;
 }
 
@@ -298,9 +298,11 @@
     content: "Half Pan";
     display: block;
     font-size: 0.9rem;
+    color: black;
   }
   
   .catering-grid-header .catering-item-price:last-child:before {
     content: "Full Pan";
+    color: black;
   }
 }
