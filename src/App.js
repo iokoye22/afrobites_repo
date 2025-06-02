@@ -6,6 +6,7 @@ import Header from './Views/Header';
 import HomePage from './Views/HomePage';
 import MenuPage from './Views/MenuPage';
 import Events from './Views/Events';
+import OrderPage from './Views/OrderPage';
 import Footer from './components/Footer'; // ✅ Import footer
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/order" element={<OrderPage />} />
         </Routes>
         <Footer /> {/* Show footer below routes */}
       </div>

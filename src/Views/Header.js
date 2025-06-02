@@ -64,7 +64,7 @@ const Header = () => {
             </p>
             <div className="hero-buttons">
               <button className="menu-btn" onClick={() => handleNavigate('/menu')}>Menu</button>
-              <button className="order-btn">Order Now</button>
+              <button className="order-btn" onClick={() => handleNavigate('/order')}>Order Now</button>
             </div>
           </div>
 
